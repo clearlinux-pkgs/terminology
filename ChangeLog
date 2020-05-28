@@ -1,5 +1,36 @@
+2020-05-10
+        * Release v1.7.0
+        * Terminology is packaged on the snapstore at https://snapcraft.io/terminology
+        * Add THEME.md, a documentation file on theming Terminology
+        * Drag tabs to reorder them
+        * Dragging tabs outside the tab bar can be used to create new splits or
+          tabs
+        * Memory accounting of the backlogs. Seen under the Behavior tab on the
+          Settings panel
+        * Handle escape codes to stack titles
+        * Tyls: add icon for flac files
+        * Update the mild-based themes to be on-par feature-wise with the default
+          theme
+        * Tab selector shows background color
+        * Controls panel is hidden when creating new tab or split
+        * Enable Grouped Input from the Controls panel
+        * Show special icon on tab when using Grouped Input
+        * Add option to decide whether Grouped input goes to all tabs or only
+          visible ones
+        * Improve email/links detection when surrounded with special characters
+        * Remove link underline when the link disappears
+        * Share translucent / opacity setting accross all instances
+        * Use a default icon of each tab on the Settings toolbar
+        * Update french, german, italian and serbian translations
+        * Add croatian translation
+        * Removed video settings
+        * Handle invalid values on OS escape codes
+        * Handle escape code used to display terminal program and version
+        * Set environment variables TERM_PROGRAM and TERM_PROGRAM_VERSION
+        * Better handle reads and writes on EINTR/EAGAIN
+
 2019-11-16
-        * Release v1.5.0
+        * Release v1.6.0
         * Show title tab on splits, depending on configuration
         * Show tabs that had a bell rang and had not been focused
         * Add wizard on new configuration to set scaling
@@ -24,6 +55,7 @@
           longer be accurate
         * Allow tabs to be pasted
 
+
 2019-07-20
         * Release v1.5.0
         * Handle emoji has double-width character, introduced in Unicode 9.0.
@@ -36,11 +68,13 @@
         * Fix initial window size hints
         * Fix focus issues
 
+
 2019-05-24
         * Release v1.4.1
         * Decode pasted string as UTF-8, fixing some characters being skipped
         * Fix theme to ensure default size is 80x24
         * Fix focus disappearing after going to Settings and back
+
 
 2019-03-31
         * Release v1.4.0
@@ -67,7 +101,6 @@
 
 
 2018-12-16
-
         * Release v1.3.1
         * Add manpages on Terminology's helpers
         * Do not popup unknown media types (security issue)
@@ -75,7 +108,6 @@
 
 
 2018-11-23
-
         * Release v1.3.0
         * Hyperlink escape code support
         * Optimize escape code parsing by improving cell copies
@@ -85,7 +117,6 @@
 
 
 2018-05-14
-
         * Release v1.2.1
         * Fix focus issues when input was not registering
         * User-defined tab titles stay even when terminal wants change it
@@ -93,7 +124,6 @@
 
 
 2018-04-15
-
         * Release v1.2.0
         * New build system based on Meson
         * Add Nord theme
@@ -113,7 +143,6 @@
 
 
 2017-09-02
-
         * Release v1.1.1
         * Add Danish translation
         * Fix issues with bottom margins
@@ -123,7 +152,6 @@
 
 
 2017-08-19
-
         * Release v1.1.0
         * Double-click on tab title to change it
         * Add option to disable focus-in/out animations and visuals
@@ -144,7 +172,6 @@
 
 
 2017-01-07
-
         * Release v1.0.0
         * Bold/Italic support (on by default)
         * Add keybinding shift+home to go to the top of the backlog
@@ -161,7 +188,6 @@
 
 
 2015-09-17
-
         * Release v0.9.1
         * Fix resizing issue
         * Fix solarized theme
@@ -169,7 +195,6 @@
 
 
 2015-09-06
-
         * Release v0.9.0
         * Add keybing to fullscreen Terminology
         * Right click on selection to be able to copy/open it
@@ -188,7 +213,6 @@
 
 
 2015-02-15
-
         * Release v0.8.0
         * Gravatar support
         * Add a visual tab bar
@@ -199,7 +223,6 @@
 
 
 2014-10-06
-
         * Release v0.7.0
         * Internationalization and Localization support
         * Options -S/--split to start terminology with multiple splits
@@ -215,7 +238,6 @@
 
 
 2014-07-02
-
         * Release v0.6.1
         * Add .tga images to recognized files
         * Reduced power consumption
