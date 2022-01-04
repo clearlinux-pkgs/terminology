@@ -1,6 +1,25 @@
 ==================
-Terminology 1.11.0
+Terminology 1.12.1
 ==================
+
+Changes since 1.12.0:
+--------------------
+
+Fixes:
+    * Build and install Default colorscheme
+    * Correctly set the version
+
+
+Changes since 1.11.0:
+--------------------
+
+Additions:
+    * New default theme!
+
+Improvements:
+    * Support EFL 1-26 or newer only
+    * Colorschemes generate their own configuration file, allowing for easy
+      management of outside contributions
 
 
 Changes since 1.10.0:
